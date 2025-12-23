@@ -1,0 +1,35 @@
+project-root/
+│
+├── server.ts
+├── .env
+├── package.json
+│
+├── config/
+│   └── db.ts
+│
+├── models/
+│   ├── User.ts
+│   ├── Envelope.ts
+│   ├── Transaction.ts
+│   └── SavingsPot.ts
+│
+├── controllers/
+│   ├── authController.ts
+│   ├── userController.ts
+│   ├── envelopeController.ts
+│   ├── transactionController.ts
+│   └── savingsController.ts
+│
+├── routes/
+│   ├── authRoutes.ts
+│   ├── userRoutes.ts
+│   ├── envelopeRoutes.ts
+│   ├── transactionRoutes.ts
+│   └── savingsRoutes.ts
+│
+├── middleware/
+│   ├── errorHandler.ts
+│   └── authMiddleware.ts
+│
+└── utils/
+└── generateToken.ts
